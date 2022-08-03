@@ -1,0 +1,23 @@
+/*CONFIG PARA EL FOOTER*/
+body{
+	position: relative;
+	padding-bottom: 5em;
+	min-height: 100vh;
+	
+	background: linear-gradient(to right,#2E86C1,#2EBBB3);/*CONFIG FONDO*/
+}
+footer{
+	position: absolute;
+	bottom: 0;
+	width: 100%;
+}
+
+/*CONFIG A LINKS*/
+a{
+	text-decoration: none;
+}
+
+/*CONF A BOTONES*/
+.btn{
+	border: 0px;
+}
