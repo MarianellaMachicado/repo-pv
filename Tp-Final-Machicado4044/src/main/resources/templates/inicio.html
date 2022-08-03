@@ -9,7 +9,94 @@
 	<body>
 		<header th:replace="layouts/header :: header"></header>
 		<main>
-			
+			<div class="container">
+				<h1 class="text text-center m-3">Encuentra el trabajo que tanto buscas!!!</h1>
+				
+					 <form action="#" method="get" class="form rounded p-3">
+						<div class="row text-white-50">
+							<label>Puedes buscar por descripción y categoría.</label>
+							<div class="col-7">
+								<input type="text" class="form-control" placeholder="Buscar...">
+							</div>
+							<div class="col-3">
+								<select class="form-select" aria-label="Default select example">
+									<option selected value="null">Categoria</option>
+									<option value="1">One</option>
+									<option value="2">Two</option>
+									<option value="3">Three</option>
+								</select>
+							</div>
+							<div class="col-2">
+								<button type="submit" class="btn btn-dark btn-outline-light">Buscar</button>   
+							</div>
+						</div>	         
+        				 </form>
+					
+				
+				 <div class="row row-cols-1 row-cols-lg-4 g-4 mt-3">
+					<div class="col">
+						<div class="card text-white-50">
+							<img alt="imagen" th:src="@{/images/no-image.png}">
+							<div class="card-body">
+								<h5>Nombre Trabajo</h5>
+								<p> Puesto</p>
+								<div class="text text-center">
+									<a href="#" class="btn btn-dark btn-outline-light">Más Info</a>
+								</div>  
+							</div>
+						</div>
+					</div>
+					<div class="col">
+						<div class="card text-white-50">
+							<img alt="imagen" th:src="@{/images/no-image.png}">
+							<div class="card-body">
+								<h5>Nombre Trabajo</h5>
+								<p> Puesto</p>
+								<div class="text text-center">
+									<a href="#" class="btn btn-dark btn-outline-light">Más Info</a>
+								</div>  
+							</div>
+						</div>
+					</div>
+					<div class="col">
+						<div class="card text-white-50">
+							<img alt="imagen" th:src="@{/images/no-image.png}">
+							<div class="card-body">
+								<h5>Nombre Trabajo</h5>
+								<p> Puesto</p>
+								<div class="text text-center">
+									<a href="#" class="btn btn-dark btn-outline-light">Más Info</a>
+								</div>  
+							</div>
+						</div>
+					</div>
+					<div class="col">
+						<div class="card text-white-50">
+							<img alt="imagen" th:src="@{/images/no-image.png}">
+							<div class="card-body">
+								<h5>Nombre Trabajo</h5>
+								<p> Puesto</p>
+								<div class="text text-center">
+									<a href="#" class="btn btn-dark btn-outline-light">Más Info</a>
+								</div>  
+							</div>
+						</div>
+					</div>
+					<div class="col">
+						<div class="card text-white-50">
+							<img alt="imagen" th:src="@{/images/no-image.png}">
+							<div class="card-body">
+								<h5>Nombre Trabajo</h5>
+								<p> Puesto</p>
+								<div class="text text-center">
+									<a href="#" class="btn btn-dark btn-outline-light">Más Info</a>
+								</div>  
+							</div>
+						</div>
+					</div>
+				</div>
+        	</div>
+      
 		</main>
 		<footer th:replace="/layouts/footer :: footer"></footer>
 	</body>

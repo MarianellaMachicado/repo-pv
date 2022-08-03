@@ -21,3 +21,9 @@ a{
 .btn{
 	border: 0px;
 }
+
+/*CONFIG FONDO DE FORM*/
+.form{
+	background: rgba(60,65,70,0.5);
+	border: 0px;
+}
