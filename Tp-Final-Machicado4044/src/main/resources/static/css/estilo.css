@@ -23,7 +23,7 @@ a{
 }
 
 /*CONFIG FONDO DE FORM*/
-.form{
+.form,.table{
 	background: rgba(60,65,70,0.5);
 	border: 0px;
 }
